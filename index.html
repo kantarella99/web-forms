@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/root.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body class="body">
+    <section class="section">
+        <h2>Create an Account</h2>
+        <form class="section__forms">
+            <div>
+                <label for="first_name">First Name</label><br>
+                <input type="text" name="first_name" id="first_name">
+            </div>
+            <div>
+                <label for="last_name">Last Name</label><br>
+                <input type="text" name="last_name" id="last_name">
+            </div>
+            <div class="section__email">
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email">
+                <p>We'll never share your email with anyone else.</p>
+            </div>
+            <div class="radio">
+                <input type="radio" name="contact" id="radiobutton" value="male">
+                <label for="radiobutton" class="rad">Male</label>
+                <input type="radio" name="contact" id="radiobutton1" value="female">
+                <label for="radiobutton1" class="rad">Female</label>
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option disabled selected value hidden></option>
+                    <option value="estonia">Estonia</option>
+                    <option value="finland">Finland</option>
+                    <option value="iceland">Iceland</option>
+                </select>
+            </div>
+            <div>
+                <label for="city">City</label><br>
+                <input type="text" name="city" id="city">
+            </div>
+            <button type="button" class="button">Sign Up</button>
+            <p class="circs">By clicking the 'Sign Up' button, you confirm that you accept our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+        </form>
+    </section>
+    <section class="section">
+         <h2>Profile</h2>
+         <form>
+            <div class="info">
+                <img src="img/📷 Image.png" alt="Image" class="ava">
+                <div class="tet">
+                    <div class="lio">
+                        <button type="button" class="button--foto"><img src="img/Photo Camera.svg" alt=""></button>
+                        <p>Up to 1 MB (300x300 px)</p>
+                    </div>
+                    <button type="button" class="urn"><img src="img/Trash.svg" alt=""></button>
+                </div>
+            </div>
+            <div class="section__forms">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </div>
+                <div>
+                    <label for="e-mail">E-mail</label>
+                    <input type="text" name="e-mail">
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <select name="country" id="countri">
+                        <option disabled selected value hidden></option>
+                        <option value="estonia">Estonia</option>
+                        <option value="finland">Finland</option>
+                        <option value="iceland">Iceland</option>
+                </select>
+                </div>
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" name="city">
+                </div>
+                <div>
+                    <label for="zip-code">Zip-code</label>
+                    <input type="text" name="zip-code">
+                </div>
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="tel" name="number">
+                </div>
+                <button type="submit" class="submit">Update</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
